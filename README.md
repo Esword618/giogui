@@ -1,2 +1,3 @@
 # giogui
-![image](https://github.com/Esword618/giogui/blob/main/img/pointerbug.gif)
+Learn about gio github warehouse.
+学习gio仓库
