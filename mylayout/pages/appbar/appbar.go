@@ -8,10 +8,10 @@ import (
 	"gioui.org/widget/material"
 	"gioui.org/x/component"
 
-	alo "guigio/mylayout/component/applayout"
+	alo "github.com/Esword618/giogui/mylayout/component/applayout"
 
-	"guigio/mylayout/icon"
-	page "guigio/mylayout/pages"
+	"github.com/Esword618/giogui/mylayout/icon"
+	page "github.com/Esword618/giogui/mylayout/pages"
 )
 
 type (

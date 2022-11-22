@@ -10,9 +10,9 @@ import (
 	"gioui.org/x/component"
 	"gioui.org/x/notify"
 
-	alo "guigio/mylayout/component/applayout"
-	"guigio/mylayout/icon"
-	page "guigio/mylayout/pages"
+	alo "github.com/Esword618/giogui/mylayout/component/applayout"
+	"github.com/Esword618/giogui/mylayout/icon"
+	page "github.com/Esword618/giogui/mylayout/pages"
 )
 
 type (

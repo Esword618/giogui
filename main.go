@@ -21,11 +21,11 @@ import (
 	"gioui.org/text"
 	"gioui.org/widget/material"
 
-	"guigio/fonts"
-	"guigio/mylayout/pages"
-	"guigio/mylayout/pages/appbar"
-	"guigio/mylayout/pages/login"
-	"guigio/mylayout/pages/navdrawer"
+	"github.com/Esword618/giogui/fonts"
+	"github.com/Esword618/giogui/mylayout/pages"
+	"github.com/Esword618/giogui/mylayout/pages/appbar"
+	"github.com/Esword618/giogui/mylayout/pages/login"
+	"github.com/Esword618/giogui/mylayout/pages/navdrawer"
 )
 
 func main() {
@@ -41,7 +41,7 @@ func main() {
 }
 
 func loop(w *app.Window) error {
-	font, err := opentype.Parse(fonts.TTF)
+	font, err := opentype.Parse(fonts.FzstTTF)
 	if err != nil {
 		panic(err)
 	}

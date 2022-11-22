@@ -17,7 +17,7 @@ import (
 	"gioui.org/widget/material"
 	"gioui.org/x/component"
 
-	"guigio/mylayout/icon"
+	"github.com/Esword618/giogui/mylayout/icon"
 )
 
 type Page interface {

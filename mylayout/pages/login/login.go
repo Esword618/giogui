@@ -25,9 +25,9 @@ import (
 	"gioui.org/widget/material"
 	"gioui.org/x/component"
 
-	"guigio/fonts"
-	"guigio/mylayout/icon"
-	page "guigio/mylayout/pages"
+	"github.com/Esword618/giogui/fonts"
+	"github.com/Esword618/giogui/mylayout/icon"
+	page "github.com/Esword618/giogui/mylayout/pages"
 )
 
 type (
@@ -170,7 +170,7 @@ type WidgetView func(gtx layout.Context, th *material.Theme) layout.Dimensions
 
 // Run displays the widget with default handling.
 func (view WidgetView) Run(w *Window) error {
-	font, err := opentype.Parse(fonts.TTF)
+	font, err := opentype.Parse(fonts.FzstTTF)
 	if err != nil {
 		panic(err)
 	}
